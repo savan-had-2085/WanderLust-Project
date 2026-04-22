@@ -1,4 +1,4 @@
-if(process.env.NODE_ENV != "production"){
+if(process.env.NODE_ENV !== "production"){
     require("dotenv").config({ override: true, quiet: true });
 }
 // console.log(process.env.SECRET);
